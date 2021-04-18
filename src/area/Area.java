@@ -2,7 +2,7 @@ package area;
 
 public class Area {
 	
-	private Double PI=3.1416;
+	public Double PI=3.1416;
 	
 	public Double areaOfCircle(Double radius) {
 		Double area = PI * radius * radius;

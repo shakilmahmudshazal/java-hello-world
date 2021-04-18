@@ -1,10 +1,11 @@
-package area;
+package helloWorld;
 
-public class areaMain {
+import area.Area;
+
+public class encapsulationPractice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Area areaObject = new Area();
 		int r =4;
 		
@@ -13,8 +14,7 @@ public class areaMain {
 		
 		System.out.println("Area of circle by Sumaiya: "+newCircleArea);
 
+
 	}
 
 }
-
-
