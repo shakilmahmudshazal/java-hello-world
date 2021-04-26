@@ -14,6 +14,16 @@ public class Area {
 		return perimeter;
 	}
 	
+	public Double areaOfRectangle(Double length, Double width) {
+		Double area = length * width;
+		return area;
+	}
+	
+	public Double perimeterOfRectangle(Double length, Double width) {
+		Double perimeter = 2* (length + width);
+		return perimeter;
+	}
+	
 	
 	
 	
